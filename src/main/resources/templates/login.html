@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Welcome to BaxiCar (=</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+<body>
+<a href="login">
+    <button type="button" class="btn btn-primary">Вход</button>
+</a>
+<a href="/api/index.hmnl">
+    <button type="button" class="btn btn-info">index</button>
+</a>
+
+<div class="container">
+    <form id="form-signin" class="form-signin" role="form" method="post">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input id="username" type="username" class="form-control" placeholder="Email address" required name="username"
+               autofocus>
+        <input id="password" type="password" class="form-control" placeholder="Password" name="password" required>
+        <label class="checkbox">
+            <input type="checkbox" value="remember-me"> Remember me
+        </label>
+
+        <a href="restorePassword">Забыли пароль?</a>
+        <button class="btn btn-lg btn-primary btn-block submit" type="submit" >Sign in</button>
+    </form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+
+</body>
+</html>
